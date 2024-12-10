@@ -575,7 +575,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
     const int ray_count = 100;
     int player_rays[ray_count];
     float ray_rot = fov/ray_count;
-    State state = topdown;
+    State state = lines;
 
     int cell_width = buffer.width/MAP_COLS ;
     int cell_height = buffer.height/MAP_ROWS ;
